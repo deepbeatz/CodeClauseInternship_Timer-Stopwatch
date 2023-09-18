@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Timer and Stopwatch Website For CodeClause Internship By Rajdeep Chowdhury</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 id="title">Timer and Stopwatch By @Rajdeep</h1>
+    <div class="container">
+        <div class="timer">
+            <p id="head_timer">Timer</p>
+            <div id="timer">
+                <div class="timer_elements" id="hours">00</div>
+                <p class="timer_elements" id="colon">:</p>
+                <div class="timer_elements" id="minutes">00</div>
+                <p class="timer_elements" id="colon">:</p>
+                <div class="timer_elements" id="seconds">00</div>
+                <p class="timer_elements" id="colon">:</p>
+                <div class="timer_elements" id="milliseconds">00</div>
+            </div>
+            <div class="buttons1">
+                <button id="timer-start" onclick="startTimer()">Start</button>
+                <button id="timer-stop" onclick="stopTimer()">Stop</button>
+                <button id="timer-reset" onclick="resetTimer()">Reset</button>
+            </div>
+        </div>
+        <div class="stopwatch">
+            <p id="head_stopwatch">Stopwatch</p>
+            <div id="stopwatch">
+                <div class="timer_elements" id="stopwatch-hours">00</div>
+                <p class="timer_elements" id="colon">:</p>
+                <div class="timer_elements" id="stopwatch-minutes">00</div>
+                <p class="timer_elements" id="colon">:</p>
+                <div class="timer_elements" id="stopwatch-seconds">00</div>
+                <p class="timer_elements" id="colon">:</p>
+                <div class="timer_elements" id="stopwatch-milliseconds">00</div>
+            </div>
+            <div class="buttons2">
+                <button id="stopwatch-start">Start</button>
+                <button id="stopwatch-stop">Stop</button>
+                <button id="stopwatch-reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="./stopwatch.js"></script>
+    <script src="./timer.js"></script>
+</body>
+</html>
